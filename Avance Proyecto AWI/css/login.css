@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.966);
+    font-weight: 100;
+    font-size: 55px;
+}
+
+body{
+    background-image: url("https://www.uleam.edu.ec/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-03-at-3.39.30-PM-1024x683.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 109px;
+    margin-bottom: 15px;
+}
+
+label, input {
+    height: 31px;
+}
+
+
+div {
+    width: 1000%;
+    background: #24303c;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+}
+
+div, h2{
+    font-size: 30px;
+}
+
+div, input{
+    width: 320px;
+}
+
+.container2 {
+    width: 394px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin: 4;
+}
+
+#btnenviar {
+    width: 50%;
+    background: #1f53c5;
+    padding: 14px;
+    color: white;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-left: 90px;
+    margin-bottom: 0%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container2 h2{
+    margin-bottom: 11px;
+}
+
+.container2 h2::after {
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: #225edf;
+    margin: 4px 10px
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.new, p a{
+    list-style: none;
+    font: bold;
+    font-size: 15px;
+}
+
+.new a{
+    color: #225edf;
+    font-size: 15px;
+}
+
+#error{
+    font-size: 15px;
+}
+
+
+footer{
+    background-color: #232325;
+    padding-top: 12px;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    text-align: center;
+    margin-top: auto;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.navv a{
+    text-decoration: none;
+    color: rgb(231, 228, 228);
+    display:contents;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    cursor: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

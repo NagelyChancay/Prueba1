@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.966);
+    font-weight: 100;
+    font-size: 55px;
+}
+
+html{
+background-image: url(../img/fondo.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.title{
+    margin-top: 11px;
+    margin-bottom: 1px;
+    font-size: 25px
+}
+
+
+.title::after{
+    content: "";
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: #225edf;
+    margin: 4px 10px
+
+}
+
+
+label {
+    font-family: 'Georgia';
+    font-size: 14px;
+    color: white;
+}
+
+
+input {
+    width: 300px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div {
+    margin: auto;
+    background: #24303c;
+    margin-left: 12px;
+}
+
+.container {
+    background-image: url(fondo.png);
+    width: 390px;
+    background: #24303c;
+    padding: 15px;
+    margin: auto;
+    margin-top:25px;
+    margin-bottom:25px;
+    border-radius: 10px;
+    font-family: 'Georgia';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+body{
+    background-color: rgb(209, 226, 241);
+    
+}
+.mensajeError {
+    color: rgb(248, 0, 0);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.mensajeCorrecto{
+    color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+.boton-enviar input {
+   
+    width: 100px;
+    background: #1f53c5;
+    height:40px;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-enviar input:hover {
+    background: rgb(255, 255, 255);
+    color: #000;
+    transition: 0.5s;
+}
+
+.new, p a{
+    list-style: none;
+    font: bold;
+    font-size: 15px;
+}
+
+.new a{
+    color: #225edf;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #232325;
+    padding-top: 12px;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    text-align: center;
+    margin-top: auto;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.navv a{
+    text-decoration: none;
+    color: rgb(231, 228, 228);
+    display:contents;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    cursor: none;
+    font-family: Arial, Helvetica, sans-serif;
+}

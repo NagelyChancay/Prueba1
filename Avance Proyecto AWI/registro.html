@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+
+<body>
+    <h1>Gestión de Auditorios ULEAM</h1>
+    <div class="container">
+        <div class="formulario">
+            <center><h2>Registrarse</h2></center>
+            <form action="" id="form" autocomplete="off">
+                <br>
+                <h6>*Autorizado solamente para docentes y personal de la universidad*</h6>
+                <br>
+                <div class="form-input nombre">
+                    <label for="nombre"><b>Nombres:</b></label>
+                    <input type="text" id="nombre" placeholder="Ingrese sus nombres" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input apellidos">
+                    <label for="apellidos"><b>Apellidos:</b></label>
+                    <input type="text" id="apellidos" placeholder="Ingrese sus Apellidos" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input correo">
+                    <label><b>Correo Electronico:</b></label>
+                    <input type="mail" id="correo" placeholder="Ingrese su correo institucional" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input contrasena">
+                    <label for="contrasena"><b>Contraseña:</b></label>
+                    <input type="password" id="contrasena" placeholder="Ingrese una contraseña" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input rep_contrasena">
+                    <label for="validar_contrasena"><b>Validar Contraseña:</b></label>
+                    <input type="password" id="rep_contrasena" placeholder="Repita la contraseña" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input fecha_nacimiento">
+                    <label for="nombres"><b>Fecha de Nacimiento:</b></label>
+                    <input type="date" id="fecha_nacimiento" value="" min="1985-01-01" max="2022-01-01"
+                        placeholder="Ingresar tu fecha de nacimiento" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input telefono">
+                    <label for="num_telefono"><b>Numero de Telefono:</b></label>
+                    <input type="text" id="telefono" placeholder="Ingrese su número celular" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <div class="form-input direccion">
+                    <label for="direccion"><b>Facultad en la que labora:</b></label>
+                    <input type="text" id="direccion" placeholder="Ingrese el nombre de la Facultad en la que labora" required>
+                    <p class="mensajeError"></p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="boton-enviar">
+                    <input type="submit" value="Enviar"> <br>
+        
+                    <div class="new">
+                        <br><p>¿Ya tienes una cuenta? <a href="login.html">Inicia Sesión</a></p>
+                    </div> 
+                </div>
+                <br>
+                <br>
+                <p class="mensajeCorrecto"></p>
+            </form>
+        </div>
+    </div class="container"v>
+    
+
+    <footer>
+        <nav class="navv">
+            <a href="#"><pre><center>ULEAM  © Copyright 2022, Todos los derechos reservados - Universidad Laica Eloy Alfaro de Manabí</center></pre></a>
+            <a href="#"><pre><center>Dirección: Av. Circunvalación - Vía a San Mateo</center></pre></a>
+            <a href="#"><pre><center>Manta - Manabí - Ecuador</center></pre></a>
+        </nav>
+    </footer>
+</div>
+     
+    <script src="js/registro.js"></script> 
+
+</body>
+</html>
